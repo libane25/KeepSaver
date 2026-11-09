@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KeepSaver</string>
+    <string name="app_description">Keeps Battery Saver from turning off after a full charge.</string>
+    <string name="status_heading">KeepSaver %1$s</string>
+    <string name="status_body">On this phone, Battery Saver turns off when you plug in. If sticky mode is on, it is supposed to come back when you unplug. A full charge passes the 90 percent cutoff, so the system clears that sticky mode and leaves Battery Saver off.\n\nThis module makes the system framework treat that cutoff as disabled. After a full charge, unplugging turns Battery Saver back on. Turning Battery Saver off yourself still works. Plugging in still turns it off until you unplug.\n\nVector scope must be System Framework, stored as system. Do not add Settings.\n\nRecovery: disable KeepSaver in Vector and reboot. Safe mode does not load Vector modules.</string>
+</resources>
